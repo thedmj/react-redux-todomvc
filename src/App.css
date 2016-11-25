@@ -1,0 +1,23 @@
+ul {
+  list-style: none;
+}
+@-webkit-keyframes line {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+@keyframes line {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+#line {
+  -webkit-animation: line 1s infinite alternate;
+          animation: line 1s infinite alternate;
+}
